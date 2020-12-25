@@ -1,0 +1,13 @@
+﻿生成启动时间为 2020/12/13 15:42:15。
+     1>项目“D:\C语言学习\我的项目\浮点数.c\浮点数.c\浮点数.c.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\C语言学习\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "练习.c"
+         练习.c
+       Link:
+         D:\C语言学习\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C语言学习\我的项目\浮点数.c\Debug\浮点数.c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\C语言学习\我的项目\浮点数.c\Debug\浮点数.c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C语言学习\我的项目\浮点数.c\Debug\浮点数.c.lib" /MACHINE:X86 "Debug\练习.obj"
+         浮点数.c.vcxproj -> D:\C语言学习\我的项目\浮点数.c\Debug\浮点数.c.exe
+     1>已完成生成项目“D:\C语言学习\我的项目\浮点数.c\浮点数.c\浮点数.c.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.41
