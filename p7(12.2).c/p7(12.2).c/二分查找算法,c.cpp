@@ -1,40 +1,40 @@
 #define _CRT_SECURE_NO_WARNINGS
 
-//  ÔÚÒ»¸öÓĞĞòÊı×éÖĞ²éÕÒ¾ßÌåµÄÄ³¸öÊı×Ön¡£±àĞ´ int binsearch 
-// £¨int x, int v[], int n£©;¹¦ÄÜ£»ÔÚv[0]<=v[2]<v[3]<......<v[n-1]
-//  µÄÊı×éÖĞ²éÕÒx;
+//  åœ¨ä¸€ä¸ªæœ‰åºæ•°ç»„ä¸­æŸ¥æ‰¾å…·ä½“çš„æŸä¸ªæ•°å­—nã€‚ç¼–å†™ int binsearch 
+// ï¼ˆint x, int v[], int nï¼‰;åŠŸèƒ½ï¼›åœ¨v[0]<=v[2]<v[3]<......<v[n-1]
+//  çš„æ•°ç»„ä¸­æŸ¥æ‰¾x;
 //
-//#include <stdio.h>
-//int main()
-//{
-//	int n = 0;
-//	int arr[] = { 1, 3, 4, 5, 6, 7, 9 };
-//	int sz = sizeof (arr) / sizeof (arr[0]);
-//	int left = 0;
-//	int right = sz - 1;
-//
-//	scanf("%d", &n);
-//
-//	while (left <= right)
-//	{
-//		int mid = (left + right) / 2;
-//		if (arr[mid] < n)
-//		{
-//			left = mid + 1;
-//		}
-//		else if (arr[mid] > n)
-//		{
-//			right = mid - 1;
-//		}
-//		else
-//		{
-//			printf("ÕÒµ½ÁË\n");
-//			break;
-//		}
-//	}
-//
-//	if (arr[left] >arr[right])
-//		printf("ÕÒ²»µ½");
-//
-//	return 0;
-//}
+#include <stdio.h>
+int main()
+{
+	int n = 0;
+	int arr[] = { 1, 3, 4, 5, 6, 7, 9 };
+	int sz = sizeof (arr) / sizeof (arr[0]);
+	int left = 0;
+	int right = sz - 1;
+
+	scanf("%d", &n);
+
+	while (left <= right)
+	{
+		int mid = (left + right) / 2;
+		if (arr[mid] < n)
+		{
+			left = mid + 1;
+		}
+		else if (arr[mid] > n)
+		{
+			right = mid - 1;
+		}
+		else
+		{
+			printf("æ‰¾åˆ°äº†\n");
+			break;
+		}
+	}
+
+	if (arr[left] >arr[right])
+		printf("æ‰¾ä¸åˆ°");
+
+	return 0;
+}
