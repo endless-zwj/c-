@@ -117,7 +117,7 @@ void Modify(Contact* con)
 	scanf("%s", con->data[pos].number);
 }
 
-int cmp_by_name(void* e1, void* e2)
+int cmp_by_name(const void* e1,const void* e2)
 {
 	int val= strcmp( ((PhoneList*)e1)->name, ((PhoneList*)e2)->name);
 	return val;

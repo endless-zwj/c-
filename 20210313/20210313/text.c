@@ -46,11 +46,11 @@ int main()
 		case modify:
 			Modify(&con);
 		case sort:
-			qsort(con.data, sizeof(con.data) / sizeof(con.data[0]), sizeof(con.data[0]), cmp_by_name);
+			qsort(con.data, con.size, sizeof(con.data[0]), cmp_by_name);
 			break;
 		case Exit:
 			printf("ÕýÔÚÍË³ö\n");
 		}
 	}
 	while (input);
-}
+} 
