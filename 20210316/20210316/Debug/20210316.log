@@ -1,0 +1,14 @@
+﻿生成启动时间为 2021/3/16 22:10:14。
+     1>项目“D:\C语言学习\我的项目\20210316\20210316\20210316.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\C语言学习\vs2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt Text.c
+         Text.c
+     1>d:\c语言学习\我的项目\20210316\20210316\text.c(127): warning C4013: “strerror”未定义；假设外部返回 int
+       Link:
+         D:\C语言学习\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\C语言学习\我的项目\20210316\Debug\20210316.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\C语言学习\我的项目\20210316\Debug\20210316.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\C语言学习\我的项目\20210316\Debug\20210316.lib" /MACHINE:X86 Debug\Text.obj
+         20210316.vcxproj -> D:\C语言学习\我的项目\20210316\Debug\20210316.exe
+     1>已完成生成项目“D:\C语言学习\我的项目\20210316\20210316\20210316.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.57

@@ -130,40 +130,39 @@ int main()
 	//(2)操作文件
 
 	////////////////1.测试fputc函数
-	//text_fputc(pf);
-
+	text_fputc(pf);
 
 	
 	///////////////2.测试fgetc函数
-	/*int x = 12;
+	int x = 12;
 	while (x--)
 	{
 		int ch = text_fgetc(pf);
 		printf("%c", ch);
-	}*/
+	}
 
 
 	//////////////3.测试fputs函数
-	//text_fputs(pf);
+	text_fputs(pf);
 
 
 	/////////////4.测试fgets函数
-	//text_fgets(pf);
+	text_fgets(pf);
 
 
 	/////////////5.测试fprintf函数
-	//text_fprintf(pf);
+	text_fprintf(pf);
 
 
 	/////////////6.测试fscanf函数
-	//text_fscanf(pf);
+	text_fscanf(pf);
 
 
 	/////////////7.测试sprintf
-	//text_sprintf_sscanf();
+	text_sprintf_sscanf();
 
 	/////////////8.测试fwrite函数
-	//text_fwrite(pf);
+	text_fwrite(pf);
 
 
 	/////////////9.测试fread函数
