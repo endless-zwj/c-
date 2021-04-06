@@ -119,6 +119,7 @@ int SListSize(SListNode** pphead)
 	while (cur != NULL)
 	{
 		size++;
+		cur = cur->next; 
 	}
 
 	return size; 

@@ -98,10 +98,10 @@ void menu1()
 			system("cls");
 			printf("请输入你要获取的元素下标:> ");
 			scanf("%d",&index);
-			if (x > seqlist.size)
+			if (index > seqlist.size)
 				printf("\t\t\t\t\t顺序表中无该元素!\n");
 			else
-				printf("\t\t\t\t\t该元素为[%d]\n",seqlist.Array[x-1]);
+				printf("\t\t\t\t\t该元素为[%d]\n",seqlist.Array[index-1]);
 			Sleep(1000);
 			break;
 
